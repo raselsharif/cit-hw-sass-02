@@ -1,0 +1,30 @@
+#instagram {
+    margin-top: $sectionPaddingTop;
+
+    .insta__container {
+        .section__heading__main {
+            text-align: $center;
+
+            h2 {
+                font-size: $sectionHeadFS;
+                color: $headingColor;
+                margin-bottom: $sectionHeadPad;
+            }
+
+            p {
+                width: $peraWidth;
+                margin: $marginAuto;
+                line-height: $peraLH;
+                color: $peraColor;
+            }
+        }
+    }
+
+    .insta__gallery {
+        margin-top: $sectionHeadPad*2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: $sectionHeadPad;
+    }
+}

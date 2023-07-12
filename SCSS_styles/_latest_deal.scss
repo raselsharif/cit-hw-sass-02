@@ -1,0 +1,52 @@
+#latest__deal {
+    padding-top: $sectionPaddingTop;
+
+    .container {
+        background: url(../images/Rectangle\ 9.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 122px 0;
+        text-align: center;
+
+        .section__heading__main {
+            h2 {
+                color: $headingColor;
+                font-size: $sectionHeadFS;
+                margin-bottom: $sectionHeadPad;
+            }
+
+            p {
+                color: $peraColor;
+                line-height: $peraLH;
+            }
+        }
+
+        .latest__search {
+            margin-top: $sectionHeadPad*2;
+
+            input {
+                width: 700px;
+                margin-right: 10px;
+                font-size: $peraFS;
+                color: $peraColor;
+                padding: 20px;
+                border: 0;
+                outline: 0;
+
+                &:focus {
+                    outline: 1px solid $primaryColor;
+                }
+            }
+
+            button {
+                padding: $btnPadding;
+                color: $white;
+                background: $primaryColor;
+                border: 0;
+                cursor: pointer;
+                font-size: 18px;
+            }
+        }
+    }
+}

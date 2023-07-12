@@ -1,0 +1,26 @@
+#support {
+    padding-top: $sectionPaddingTop;
+
+    .support__container {
+        padding: 86px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        background: $bg-3;
+
+        .support__items {
+            text-align: $center;
+
+            img {
+                width: 88px;
+                margin-bottom: $sectionHeadPad;
+            }
+
+            p {
+                font-size: $peraFS+6;
+                color: rgba(39, 39, 39, 0.80);
+            }
+        }
+    }
+}

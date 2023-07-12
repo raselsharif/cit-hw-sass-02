@@ -1,0 +1,44 @@
+#hot__deal {
+    margin-top: $sectionPaddingTop;
+    background: $bg-2;
+
+
+    .hot__deal__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 215px;
+        padding: 100px 0;
+
+        .hot__deal__text {
+            text-align: $center;
+
+            h2 {
+                font-size: $sectionHeadFS;
+                color: $headingColor;
+                padding-bottom: $sectionHeadPad;
+
+                span {
+                    color: $primaryColor;
+                }
+            }
+
+            p {
+                font-size: $peraFS;
+                color: $peraColor;
+                line-height: $peraLH;
+                width: $peraWidth;
+                padding-bottom: $commonPadding;
+            }
+
+            button {
+                padding: $btnPadding;
+                color: $white;
+                border: 0;
+                background: $primaryColor;
+                cursor: pointer;
+                font-size: $peraFS+2;
+            }
+        }
+    }
+}
